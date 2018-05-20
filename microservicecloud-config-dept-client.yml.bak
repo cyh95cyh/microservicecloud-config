@@ -33,6 +33,9 @@ eureka:
     #enable-self-preservation: false  #禁用eureka自我保护机制
   client: #客户端注册进eureka服务列表内
     service-url:
+        #defaultZone: http://localhost:7001/eureka
+        #defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ 
+        #defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
         defaultZone: http://eureka7001.com:7001/eureka/
   instance:
     instance-id: microservicecloud-dept8001      #指定应用在eureka中的别名
@@ -75,6 +78,9 @@ eureka:
     #enable-self-preservation: false  #禁用eureka自我保护机制
   client: #客户端注册进eureka服务列表内
     service-url:
+        #defaultZone: http://localhost:7001/eureka
+        #defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ 
+        #defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
         defaultZone: http://eureka7001.com:7001/eureka/
   instance:
     instance-id: microservicecloud-dept8001      #指定应用在eureka中的别名
